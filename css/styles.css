@@ -1,0 +1,127 @@
+/* Цвет основного текста #212121*/
+/* Вторичный цвет текста #757575*/
+/* Третий цвет #FFFFFF */
+/* Цвет inline svg #AFB1B8 */
+/* Ацент #2196F3 */
+/* Футер rgba(255, 255, 255, 0.6)*/
+/* Копирайт #rgba(255, 255, 255, 0.4) */
+
+/* Цвет фона #FFFFFF */
+/* Вторичный цвет фона #F5F4FA */
+/* Цвет фона подвала #2F303A */
+
+:root {
+	--primary-text-color: #212121;
+	--secondary-text-color: #757575;
+	--third-text-color: #ffffff;
+	--accent-color: #2196f3;
+	--inline-svg-color: #afb1b8;
+	--main-bgc-color: #ffffff;
+	--secondary-bgc-color: #f5f4fa;
+	--footer-bgc-color: #2f303a;
+}
+
+body {
+	background-color: var(--main-bgc-color);
+	color: var(--primary-text-color);
+}
+
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.list {
+	list-style: none;
+}
+
+.section .section-content {
+	color: var(--secondary-text-color);
+}
+
+/* .logo {
+	color: #212121;
+} */
+
+/* Site nav */
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent-color);
+}
+
+.site-nav .link.current {
+	color: var(--accent-color);
+}
+
+/* .site-nav .link:visited {
+	color: green;
+} */ /* Address */
+.address-header {
+	color: var(--secondary-text-color);
+}
+
+/* Hero */ /* Section */
+.hero {
+	color: var(--third-text-color);
+}
+
+.hero .hero-content:hover,
+.hero .hero-content:focus {
+	color: var(--accent-color);
+}
+
+.button {
+	color: var(--third-text-color);
+	background-color: var(--accent-color);
+}
+
+.button-portfolio {
+	color: var(--primary-text-color);
+	background-color: var(--secondary-bgc-color);
+}
+
+/* Features */
+
+/* Works */
+.works .works-item {
+	color: var(--third-text-color);
+}
+/* Team */
+.team {
+	background-color: var(--secondary-bgc-color);
+}
+
+.team-links {
+	color: var(--inline-svg-color);
+}
+
+/* Clients */
+.clients-item {
+	color: var(--inline-svg-color);
+}
+
+.clients .link:hover,
+.clients .link:focus {
+	color: var(--accent-color);
+}
+
+/* Footer */
+.footer {
+	color: var(--third-text-color);
+	background-color: var(--footer-bgc-color);
+}
+
+.address-footer {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/* Socials */
+.socials .link:hover,
+.socials .link:focus {
+	color: var(--accent-color);
+}
+
+/* Copyright */
+.footer .copy {
+	color: rgba(255, 255, 255, 0.4);
+}
