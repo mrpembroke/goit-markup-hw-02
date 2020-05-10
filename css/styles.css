@@ -25,7 +25,7 @@ body {
 	background-color: var(--main-bgc-color);
 	color: var(--primary-text-color);
 
-	font-family: roboto, serif;
+	font-family: Roboto, serif;
 	line-height: 1.2;
 	letter-spacing: 0.03em;
 }
@@ -124,12 +124,6 @@ body {
 
 /* Hero Hero Hero */
 
-/* Сменил для ментора */
-.hero,
-.works {
-	background-color: var(--secondary-text-color);
-}
-
 .hero .hero-title {
 	color: var(--third-text-color);
 	font-weight: 900;
@@ -150,7 +144,6 @@ body {
 	text-decoration: none;
 }
 
-.hero .hero-content:hover,
 .hero .hero-content:focus {
 	color: var(--accent-color);
 }
@@ -200,6 +193,7 @@ body {
 }
 
 .team .team-text {
+	color: var(--secondary-text-color);
 	font-weight: 400;
 	font-size: 16px;
 	text-align: center;
@@ -224,6 +218,7 @@ body {
 }
 
 .footer .text {
+	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.71;
@@ -236,7 +231,7 @@ body {
 	color: var(--accent-color);
 }
 
-.socials .text {
+.socials .socials-title {
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
